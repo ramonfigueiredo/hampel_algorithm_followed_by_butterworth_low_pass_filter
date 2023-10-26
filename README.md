@@ -82,4 +82,4 @@ python main.py
 
 - Enhanced data: Hampel + Butterworth low pass filter
 
-![Enhanced data: Hampel + Butterworth low pass filter](https://github.com/ramonfigueiredo/hampel_algorithm_followed_by_butterworth_low_pass_filter/blob/main/images/noisy_data.png)
+![Enhanced data: Hampel + Butterworth low pass filter](https://github.com/ramonfigueiredo/hampel_algorithm_followed_by_butterworth_low_pass_filter/blob/main/images/enhanced_data.png)
