@@ -1,4 +1,4 @@
-## Hampel algorithm followed by butterworth low pass filter using Python
+## Hampel algorithm followed by Butterworth low pass filter using Python
 
 ### Hampel algorithm and Butterworth low pass filter
 The Hampel algorithm is a method used for identifying and replacing outliers (anomalies) in a dataset. It is particularly useful for time series data or data that contains noise and occasional extreme values. The algorithm is based on the median absolute deviation (MAD) and involves the following steps:
@@ -55,7 +55,7 @@ def get_data_with_butterworth_low_pass_filter(data, order, fs, cutoff):
     return y_np
 ```
 
-### To test the code:
+### To test the code
 
 - Create and activate the virtual environment
 ```shell
@@ -68,3 +68,18 @@ pip install --upgrade pip
 ```shell
 pip install -r requirements.txt
 ```
+
+- Run the code
+```python
+python main.py
+```
+
+### Example
+
+- Noisy data
+
+![Noisy data](https://github.com/ramonfigueiredo/hampel_algorithm_followed_by_butterworth_low_pass_filter/blob/main/images/noisy_data.png)
+
+- Enhanced data: Hampel + Butterworth low pass filter
+
+![Enhanced data: Hampel + Butterworth low pass filter](https://github.com/ramonfigueiredo/hampel_algorithm_followed_by_butterworth_low_pass_filter/blob/main/images/noisy_data.png)
